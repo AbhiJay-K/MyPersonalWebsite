@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10 Sep, 2015, 5:31:12 PM
+    Author     : User
+*/
+body {
+    background-color: #0e0d17;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow: auto;
+}
+.content{
+    width:83%;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: auto;
+}
+header{ 
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    background-color: #252525;
+    width: 80%;
+    padding-left:10px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+}
+.content1 {
+    color:white;
+    padding:10px;
+    background-color: #252525;
+    width: 60%;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+    float:left;
+}
+.content1 a{
+    color: #F2600B;
+}
+
+nav {
+    width: 30%;
+    height:auto;
+    padding-right: 0px;
+    margin: 0px;
+    float: right;
+}
+nav td{
+    border:none;
+    height:100%;
+    padding-top:80px;
+}
+nav a{
+    background-color: #2980b9;
+    box-shadow: 10px 10px 5px black;
+    font-size: 20px;
+    padding:20px;
+    border-radius: 10px;
+    margin: 50px;
+    border: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color:greenyellow;
+}
+footer {
+    color:white;
+    text-transform: uppercase;
+    padding:50px;
+    padding-left: 500px;
+    font-size: 0.80em;
+}

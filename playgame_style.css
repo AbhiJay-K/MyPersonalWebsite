@@ -1,0 +1,95 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13 Sep, 2015, 3:22:47 PM
+    Author     : User
+*/
+body {
+    //background-image: url("./Monty Hall images/MontyHall_Background.png");
+    background-color: #0e0d17;
+    font-family: 'Source Sans Pro', sans-serif;
+    overflow: auto;
+}
+
+header{ 
+    text-align: center;
+    font-size: 40px;
+    color:white;
+    background-color: #252525;
+    width: 80%;
+    padding-left:10px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+}
+.content1 {
+    color:white;
+    padding:10px;
+    background-color: #252525;
+    width: 70%;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom ul{
+    list-style-type: none;
+    margin-top: 10px;
+}
+.bottom li{
+    background-color: #2980b9;
+    font-size: 20px;
+    padding:10px;
+    border-radius: 10px;
+    margin: 50px;
+    border: 10px;
+    text-align: center;
+    display: inline;
+}
+.bottom a{
+    text-decoration: none;
+    color: white;
+}
+.bottom a:hover{
+    color:greenyellow;
+}
+nav {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px; 
+}
+nav table,tr,td,tbody{
+    border:none;
+    height: auto;
+}
+nav a{
+    background-color: #2980b9;
+    box-shadow: 10px 10px 5px black;
+    font-size: 20px;
+    padding:20px;
+    border-radius: 10px;
+    margin: 50px;
+    border: 10px;
+    text-align: center;
+    display: inline;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    color:greenyellow;
+}
+footer {
+    color:white;
+    text-transform: uppercase;
+    padding:150px;
+    padding-left: 800px;
+    font-size: 0.80em;
+}
